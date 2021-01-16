@@ -3,17 +3,26 @@
 }
 
 p {
+    max-width: 75%;
+    letter-spacing: 0.05rem;
+    line-height: 1.6;
     margin: 10px;
     margin-left: 10px;
 }
 
-h1 {
+h1, h6 {
     margin: 10px;
     margin-left: 10px;
+}
+
+hr {
+    margin-top: 35px;
+    min-width: 75%;
 }
 
 .subtitle {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
+    margin-left: 20px;
     color: gray;
 }
 
@@ -70,7 +79,11 @@ a:link {
     text-decoration: none;
 }
 
-
+.points {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
 
 ul {
     display: flex;
@@ -80,20 +93,25 @@ ul {
     list-style-type: none;
 }
 
+.highlight-box {
+    max-width: 75%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(121, 62, 121);
+    background-color: rgb(160, 141, 193, 0.25);
+}
+
 .main-section {
+    display: flex;
+    flex-direction: column;
     border: 3px solid red;
     flex: 0.8;
     height: auto;
     margin: 10px;
 }
 
-.main-section > p {
+.main-section > * {
     margin-left: 20px;
-}
-
-header {
-    margin: 20px;
-    margin-left:20px;
 }
 
 article {
